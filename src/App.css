@@ -13,7 +13,7 @@
   width: 45%;
   min-height: 75vh;
   display: grid;
-  grid-template-columns: 90px minmax(200px, 1fr);
+  grid-template-columns: 100px minmax(200px, 1fr);
   grid-gap: 30px;
   border-radius: 20px;
   padding: 2em;
