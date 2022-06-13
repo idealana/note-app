@@ -1,0 +1,110 @@
+/* Form */
+.form-group {
+	margin-bottom: 1em;
+}
+
+.form-control {
+	display: block;
+	width: 100%;
+	padding: .7em;
+	border-radius: .5em;
+	outline: none;
+	background-color: #398abb70;
+	border: none;
+	color: #fff;
+}
+
+.form-text {
+	font-size: .75em;
+}
+
+textarea {
+	height: 150px;
+}
+
+.btn {
+	padding: 0.5em;
+	border: none;
+	color: #fff;
+	border-radius: .5em;
+	cursor: pointer;
+	transition: .2s ease-out;
+	margin: 0 3px;
+	font-size: .75em;
+}
+
+.btn-submit {
+	width: 100%;
+	background-color: #cc3737;
+}
+
+.btn-submit:hover {
+	background-color: #8e2a2a;
+}
+
+.btn-danger {
+	background-color: #e30808;
+}
+
+.btn-danger:hover {
+	background-color: #c10d0d;
+}
+
+.btn-primary {
+	background-color: #0891e3;
+}
+
+.btn-primary:hover {
+	background-color: #056eac;
+}
+
+/* Note */
+.note {
+	background-color: #398abb70;
+	padding: .7em;
+	border-radius: .5em;
+	margin-bottom: .8em;
+}
+
+.note .title {
+	border-left: 2px solid;
+	padding-left: .3em;
+	margin-bottom: .5em;
+}
+
+.note .body {
+	font-size: .8em;
+	margin-bottom: .5em;
+}
+
+.note .actions {
+	text-align: right;
+}
+
+.empty-note {
+	font-size: .9em;
+	text-align: center;
+}
+
+/* Search box */
+.search-box {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 1em;
+}
+
+.search-box .page-title {
+	margin-bottom: 0;
+}
+
+.search-box .form-control {
+	width: 40%;
+}
+
+/* Utils */
+.page-title {
+  font-size: 1.3em;
+  margin-bottom: .5em;
+  font-weight: normal;
+}
